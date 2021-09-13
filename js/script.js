@@ -30,7 +30,7 @@ topMenuEl.classList.add('flex-around');
 ////////////////////////////////////////
 // Part 3:
 // Iterate over the entire menuLinksarray and for each "link" object:
-
+// could use forEach() but for loop came to mind first.
 for (let i = 0; i < menuLinks.length; i++) {
     var aTag = document.createElement("a");
     topMenuEl.appendChild(aTag);
